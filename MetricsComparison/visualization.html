@@ -19,8 +19,6 @@
         <script src="../visualization/libs/pixi.js"></script>
         <script src="../visualization/scripts/draw.js"></script>
         <script src="../visualization/parser.js"></script>
-        <script src="../visualization/libs/canvas-toBlob.js"></script>
-        <script src="../visualization/libs/FileSaver.min.js"></script>
         <script>
             const DATASETS = {
                 chesapeake: "chesapeake",
@@ -70,7 +68,7 @@
             }
             const width = 700
             const height = 700
-            const size = 1
+            const size = 0.8
 
             const mainDIV = d3.select("#main")
             const div = mainDIV.append("div").style("margin", "10px")
@@ -100,7 +98,7 @@
             Object.values(ALGORITHMS).forEach((algorithm) => {
                 configs.push({
                     path: "./matrix/",
-                    dataset: Object.values(DATASETS)[19],
+                    dataset: Object.values(DATASETS)[0],
                     algorithm,
                 })
             })

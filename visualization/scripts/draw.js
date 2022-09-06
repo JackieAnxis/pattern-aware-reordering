@@ -7,8 +7,21 @@ function drawMatrixPixi(
     highlightCallback = () => {},
     clearCallback = () => {}
 ) {
-    const { width, height, cellWidth, cellHeight, left, right, top, bottom } =
-        configs
+    let {
+        width,
+        height,
+        cellWidth,
+        cellHeight,
+        left,
+        right,
+        top,
+        bottom,
+        lineWidth,
+    } = configs
+
+    if (lineWidth == undefined) lineWidth = 1
+    if (cellWidth <= 2 || cellHeight <= 2) lineWidth = 0
+
     const app = new PIXI.Application({
         width,
         height,
@@ -142,7 +155,6 @@ function drawMatrixPixi(
     app.stage.addChild(container)
 
     // 画网格线
-    const lineWidth = 0 // Math.max(1, cellWidth / 10)
     graphics.lineStyle(lineWidth, 0xe0e0e0, 1, 0.5, true)
 
     for (let i = 0; i <= N; i++) {
