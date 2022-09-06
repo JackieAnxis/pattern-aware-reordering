@@ -52,7 +52,7 @@ The results of our previous experiments have been stored in the `MetricCompariso
 
 3. Run `./draw-metrics.html` (require a localhost, e.g., `python3 -m http.server xxxx`) to see the charts.
 
-4. TODO: To explore our results, you can open `/visualization/???`
+4. To explore our results, you can open `./visualization.html` with a localhost.
 
 ### Experiment 3: User Study
 
