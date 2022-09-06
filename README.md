@@ -65,6 +65,7 @@ Run `./UserStudy/data_analysis.py` could analyze the collected data. After analy
 # References
 
 [1] M. Behrisch, B. Bach, N. H. Riche, T. Schreck, and J. Fekete, “Matrix reordering methods for table and network visualization,” Computer Graphics Forum, vol. 35, no. 3, pp. 693–716, 2016.
+
 [2] https://web.archive.org/web/20080205025042/http://www.ewas.de/tables/bertin.r
 
 [3] E. Rodriguez-Tello, J. Hao, and J. Torres-Jimenez, “An effective two-stage simulated annealing algorithm for the minimum linear arrangement problem,” Computers and Operations Research, vol. 35, no. 10, pp. 3331–3346, 2008.
