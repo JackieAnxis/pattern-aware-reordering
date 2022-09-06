@@ -44,7 +44,7 @@ The results of our previous experiments have been stored in the `PatternPrecisio
 
 ### Experiment 2: How to run metrics comparisons?
 
-The results of our previous experiments have been stored in the `MetricComparison` folder. To see the results directly, you only need to perform step 3 and 4. To reproduce our experiments, you can follow all steps. Note that the entire experiment lasts several hours, you can run it after sleeping 😅 or choose small datasets to run it (comment the 12th line in `./MetricComparison/definitions.py` and cancel the comment of the 14th line in it). Note that Table 2 (showing metrics for different patterns) in our paper also comes from this folder by running `./pattern_response.py` and `./draw-pattern-response.html`
+The results of our previous experiments have been stored in the `MetricComparison` folder. To see the results directly, you only need to perform step 3 and 4. To reproduce our experiments, you can follow all steps. Note that the entire experiment lasts several hours, you can run it after sleeping 😅 or choose small datasets to run it (comment the 12th line in `./MetricComparison/definitions.py` and cancel the comment of the 14th line in it). Note that Table 1 (showing metrics for different patterns) in our paper also comes from this folder by running `./pattern_response.py` and `./draw-pattern-response.html`
 
 1. Run `cd ./MetricComparison`
 
